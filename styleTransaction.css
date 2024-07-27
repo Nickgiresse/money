@@ -1,0 +1,30 @@
+
+#selectionner{
+    color: orangered;
+}
+section{
+    width: 50%;
+
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+nav{
+    background-color: rgb(53, 53, 53);
+    width: max-content;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    border-start-start-radius: 20px;
+    border-top-right-radius: 20px;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+nav a:hover{
+    color: orangered;
+
